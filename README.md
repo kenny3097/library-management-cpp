@@ -61,3 +61,34 @@ When executed, each test program will print messages indicating whether the test
 The focus of this project was on building and testing core classes.
 
 Each class was tested individually to confirm their accuracy before I integrating them.
+
+Confirming the test worked;
+
+C:\Users\kenny\Desktop\Zetech University Notes\YEAR 1 SEM 2\OBJECT ORIENTED PROGRAMMING 1\LibraryManagement>.\test_book.exe
+Testing Book Class...
+Is it Initially available? Pass
+After borrowing, is it available? Pass
+After returning,is it available? Pass
+Is Borrowing twice handled? Pass
+
+
+C:\Users\kenny\Desktop\Zetech University Notes\YEAR 1 SEM 2\OBJECT ORIENTED PROGRAMMING 1\LibraryManagement>.\test_user.exe
+Testing User Class...
+Initially borrowed count: 0
+Borrowed books count after 2 borrows: 2
+Borrowed books count after return: 1
+Handled returning non-borrowed book? (count still 1)
+
+
+C:\Users\kenny\Desktop\Zetech University Notes\YEAR 1 SEM 2\OBJECT ORIENTED PROGRAMMING 1\LibraryManagement>.\test_library.exe
+Testing Library Class...
+Borrow by Kennedy (book 1): Pass
+Borrow same book by Jane: Pass
+Return by Kennedy (book 1): Pass
+Borrow by Jane after return: Pass
+Return by Kennedy (book 2, not borrowed): Pass
+
+
+
+
+
